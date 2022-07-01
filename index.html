@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Gaurav Dabholkar</title>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- CSS style -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/a94d2181bf.js" crossorigin="anonymous"></script>
+  <!-- boxicons -->
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  <!-- bootstrap scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="coloured-section" id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+    
+      <nav class =  "navbar navbar-expand-lg navbar-dark">
+          <a class = "navbar-brand" href = ""> GD </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class = "collapse navbar-collapse" id = "navbarTogglerDemo03">
+          
+          <ul class = "navbar-nav ml-auto">
+              <li class = "nav-item">
+                <a class = "nav-link" href = "#features">About</a>
+              </li>
+              <li class = "nav-item">
+                  <a class = "nav-link" href = "#testimonials">Projects</a>
+              </li>
+              <li class = "nav-item">
+                  <a class = "nav-link" href = "#pricing">Skills</a>
+              </li>
+              <li class = "nav-item">
+                  <a class = "nav-link" href = "#cta">Contact</a>
+              </li>
+          </ul>
+          </div>
+      
+      </nav>
+
+    <!-- Title -->
+<div class="row">
+
+    <div class="col-lg-6 col-md-12">
+      <h1 class="big-heading">Hi! I'm </h1>
+      <span class="big-heading">Gaurav Dabholkar.</span>
+      <br>
+      <button type="button" class="btn btn-primary btn-lg btn-dark download-button" onclick ="window.location.href = 'https://drive.google.com/drive/folders/1Ck4NjYdjjx5_fu2B9ndDi0oLBN4ajZee';"><i class="fa-solid fa-file"></i> Resume</button>    </div>
+      
+    <div class="col-lg-6 col-md-12">
+      <!-- <img class="title-image" src="images/iphone6.png" alt="iphone-mockup"> -->
+    </div>
+
+  </div>
+
+</div>
+  </section>
+
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="feature-box col-lg-4 col-sm-12">
+        <i class="icon fa-solid fa-code fa-4x"></i>
+        <h3 class="feature-title">Web Development.</h3>
+        <p>3 yrs of experiance in React, SQL, Mongo, HTML, CSS & JS.</p>
+      </div>
+
+      <div class="feature-box col-lg-4 col-sm-12">
+        <i class="icon fa-solid fa-wifi fa-4x"></i>
+        <h3 class="feature-title">IoT</h3>
+        <p>Created over 10 projects based on Arduino, Raspberry PI.</p>
+      </div>
+
+      <div class="feature-box col-lg-4 col-sm-12">
+        <i class="icon fa-solid fa-gamepad fa-4x"></i>
+        <h3 class="feature-title">Game Development.</h3>
+        <p>6 months of experiance.</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!-- ///////////////////////////////////////////////////////////// -->
+  <!-- Testimonials -->
+  <!-- Projects -->
+
+  <section class="coloured-section" id="testimonials">
+    <h2 class="section-heading">Projects</h2>
+    <p class="section-para">Made by me for others.</p>
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Dice_game.png" alt="">
+          <h2 class="testimonial-text">Dice Game.</h2>
+          <span><h3>Simple Dice game decides who'll win.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Dice_game';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Drum_kit.png" alt="">
+          <h2 class="testimonial-text">Drum Kit.</h2>
+          <span><h3>Plays Drum kit according to inputs.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Drum_kit';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/todolist.png" alt="">
+          <h2 class="testimonial-text">To Do List.</h2>
+          <span><h3>Simple To-Do list using EJS & MongoDb.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/todolist';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Simon.png" alt="">
+          <h2 class="testimonial-text">Simon Game.</h2>
+          <span><h3>Fun game created using html, css & js.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Simon_game';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/blog.png" alt="">
+          <h2 class="testimonial-text">Blog Site.</h2>
+          <span><h3>Simple Blog posting site using EJS & MongoDb.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Blog_site';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item active container-fluid">
+          <img class="test_img" src="images/Vib detect1.png" alt="">
+          <h2 class="testimonial-text">Vibration Detector.</h2>
+          <span><h3>Detects vibration in any axes.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/vibration_detector';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Message.png" alt="">
+          <h2 class="testimonial-text">Message Sender.</h2>
+          <span><h3>Message sender using Arduino & GPS</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/message_sending-using-Arduino';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Counter.png" alt="">
+          <h2 class="testimonial-text">Counter.</h2>
+          <span><h3>Counter using IR sensor and display</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Counter';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Fuel_level.png" alt="">
+          <h2 class="testimonial-text">Fuel Level Indicator.</h2>
+          <span><h3>Level Indicator using ultrasonic sensor and display</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Fuel_level';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Size_detection.png" alt="">
+          <h2 class="testimonial-text">Size Detection.</h2>
+          <span><h3>Object size detection using Python.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/objectdetection';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/gas.png" alt="">
+          <h2 class="testimonial-text">Gas Sensor.</h2>
+          <span><h3>Gas sensor using display.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Gas_sensor';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/solar.png" alt="">
+          <h2 class="testimonial-text">Solar Charging.</h2>
+          <span><h3>Charging using solar panel.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Solar';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Temperature Controller.png" alt="">
+          <h2 class="testimonial-text">Temperature Controller.</h2>
+          <span><h3>Sensing & controlling temperature using LM35 & fan.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/Temp_control';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Gps_message.png" alt="">
+          <h2 class="testimonial-text">GPS Message.</h2>
+          <span><h3>Sending GPS co-ordinates using GSM module.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/truck_gps';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/pressure.png" alt="">
+          <h2 class="testimonial-text">Tyre Pressure Sensor.</h2>
+          <span><h3>Sensing pressure of tyre.</h3></span>
+          <button onclick ="window.location.href = 'link here';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/weight.png" alt="">
+          <h2 class="testimonial-text">Weight Sensor.</h2>
+          <span><h3>Sensing weight using MPX4115a pressure sensor.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/tyre_pressure';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/Certification.png" alt="">
+          <h2 class="testimonial-text">Blockchain Certification</h2>
+          <span><h3>Making blockchain based certifications.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/APML-Certification';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <img class="test_img" src="images/ether_bank.png" alt="">
+          <h2 class="testimonial-text">Ether Bank.</h2>
+          <span><h3>Sending, receiving & checking balance.</h3></span>
+          <button onclick ="window.location.href = 'https://github.com/gauravd-123/ether_bank1';" type="button" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Source Code</button>
+        </div>
+        
+      </div>
+
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    
+
+    
+
+  </section>
+
+<!-- /////////////////////////////////////////////////////////////////// -->
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">Skills</h2>
+    <p>Learnt by myself for otherselves.</p>
+
+
+  <div class="skills">
+  <div class="col">
+    <div id="accordion">
+      <div class="card ">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Frontend
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+        <i class="fa-brands fa-html5">  Html</i><br>
+        <i class="fa-brands fa-css3-alt">  CSS</i><br>
+        <i class="fa-brands fa-js">  JavaScript</i><br>
+        <i class="fa-brands fa-react">  React Js</i>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Backend
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <i class="fa-brands fa">  Node Js</i><br>
+            <i class="fa-brands fa-mongo">  Mongo DB</i><br>
+            <i class="fa-brands fa">  MySQL</i><br> 
+           </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+             Designer
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <i class="fa-brands fa-figma">   Figma</i><br>
+            <i class="fa-brands fa-bootstrap"> Bootstrap Studio</i><br>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+             Languages
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            <i class="fa-brands fa">  C++</i><br>
+            <i class="fa-brands fa-">  C</i><br>
+            <i class="fa-brands fa">  Python</i><br>
+            <i class="fa-brands fa">  SQL</i><br>
+            <i class="fa-brands fa">  Solidity</i><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+
+  <!-- Call to Action -->
+
+  <section class="coloured-section" id="cta">
+
+  <div class="container-fluid">
+    <h3>Find me at....</h3>
+    <button type="button" onclick ="window.location.href = 'https://www.linkedin.com/in/gaurav-dabholkar-422a901a5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5NzaxydPSEiclya69NHZ%2BQ%3D%3D';" class="btn btn-primary btn-lg btn-dark download-button"><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
+    <button type="button" onclick ="window.location.href = 'https://github.com/gauravd-123';" class="btn btn-primary btn-lg btn-outline-light download-button"><i class="fa-brands fa-github"></i> Github</button>
+  </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid"></div>
+    <div class="footer-icons">
+    <a href=""><i class="logicon fa-brands fa-twitter"></i></a>
+    <a href=""><i class="logicon fa-brands fa-facebook-f"></i></a>
+    <a href=""><i class="logicon fa-brands fa-instagram"></i></a>
+    <a href="mailto: gauravdabholkar410@gmail.com"   target="_blank"><i class="logicon fa-solid fa-envelope"></i></a>
+  </div>
+    <p>© Copyright GD</p>
+</div>
+  </footer>
+
+
+</body>
+
+</html>
