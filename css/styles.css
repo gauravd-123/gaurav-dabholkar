@@ -220,3 +220,44 @@ p{
         transform: rotate(0deg);
     }
 }
+
+
+/* Added for mobile view */
+@media ( max-width: 1170px) {
+
+    body{
+        zoom: 3;
+    }
+    
+
+    .test_img{
+        height: 14em;
+        width : 15em;
+    }
+    
+    .carousel-item{
+        padding-top: 0;
+    }
+    
+    .section-para{
+        visibility: hidden;
+    }
+    .section-heading{
+        margin-bottom: 3rem;
+    }
+
+    .skills{
+        width: 5em;
+        margin-left: -2.1em;
+    }
+
+    /* .accordion{
+        width: 280px;
+    } */
+
+    .card{
+        width: 6.2em;
+    }
+
+
+}
