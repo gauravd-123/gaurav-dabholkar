@@ -223,16 +223,22 @@ p{
 
 
 /* Added for mobile view */
+
 @media ( max-width: 1170px) {
 
     body{
         zoom: 3;
     }
     
+    /* .card-body{
+        font-size: smaller;
+    } */
+
+
 
     .test_img{
-        height: 14em;
-        width : 15em;
+        height: 11.5em;
+        width : 13em;
     }
     
     .carousel-item{
@@ -248,16 +254,66 @@ p{
 
     .skills{
         width: 5em;
-        margin-left: -2.1em;
+        margin-left: -1em;
     }
 
     /* .accordion{
         width: 280px;
     } */
 
+
+/* for cards(skills) //////////////////////////////////////////////////*/
     .card{
-        width: 6.2em;
+        width: 12em;
+        font-size: 1rem;
     }
+    button{
+        font-size: 1rem;
+    }
+/* for cards(skills) /////////////////////////////////////////////////*/
+
+/* for projects section //////////////////////////////////////////////*/
+ .testimonial-text{
+    font-size: 1.7rem;
+ }
+
+ .carousel-item h3{
+    font-size: 1rem;
+ }
+ .section-heading{
+    font-size: 2rem;
+
+ }
+
+ /* for projects section///////////////////////////////////////////// */
+
+/* Find me section/////////////////////////////////////////////////// */
+    #cta h3, button{
+        font-size: 2rem;
+    }
+    
+/* Find me section/////////////////////////////////////////////////// */
+
+ .big-heading{
+    font-size: 2rem;
+ }
+
+ #pricing{
+    padding-top: 1rem;
+ }
+
+ #pricing h2{
+    margin-bottom: -0.1rem;
+ } 
+
+ #title{
+    padding-bottom: 7rem;
+ }
+
+
+ .btn-dark .download-button{
+    margin-top: 1000rem;
+ }
 
 
 }
